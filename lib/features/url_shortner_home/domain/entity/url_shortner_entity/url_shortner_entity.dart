@@ -4,7 +4,7 @@ class UrlShortnerEntity extends Equatable {
   final String? id;
   final String? shortenUrl;
   final String? originalUrl;
-  final List<String>? visitedCount;
+  final int? visitedCount;
   const UrlShortnerEntity({
     this.id,
     this.shortenUrl,

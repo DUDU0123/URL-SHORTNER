@@ -13,9 +13,7 @@ class UrlShortnerModel extends UrlShortnerEntity {
       id: json['id'] as String?,
       originalUrl: json['originalUrl'] as String?,
       shortenUrl: json['shortenUrl'] as String?,
-      visitedCount: (json['visitedCount'] as List<dynamic>?)
-          ?.map((item) => item as String)
-          .toList(),
+      visitedCount: json['visitedCount'] as int?,
     );
   }
 
@@ -32,7 +30,7 @@ class UrlShortnerModel extends UrlShortnerEntity {
     String? id,
     String? originalUrl,
     String? shortenUrl,
-    List<String>? visitedCount,
+    int? visitedCount,
   }) {
     return UrlShortnerModel(
       id: id ?? this.id,

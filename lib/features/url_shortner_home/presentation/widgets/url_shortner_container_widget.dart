@@ -37,7 +37,7 @@ class _UrlShortnerContainerWidgetState
         children: [
           const TextWidgetCommon(
             letterSpacing: 1.2,
-            text: "Trim URL",
+            text: "QuickTrim",
             textColor: kWhite,
             fontSize: 28,
             textAlign: TextAlign.center,
