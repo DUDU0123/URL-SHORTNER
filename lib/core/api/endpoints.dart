@@ -1,7 +1,4 @@
-import 'package:url_shortner/config/secrets.dart';
-
-
 class EndPoints{
-  static const baseUrl = 'http://$ip:8000';
+  static const baseUrl = 'https://quicktrim-server-production.up.railway.app';
 
 }
